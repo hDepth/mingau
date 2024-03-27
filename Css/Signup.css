@@ -1,6 +1,7 @@
 body{
     min-height: 100vh;
     background: #050505;
+    background: linear-gradient(-233deg, #000000 30%, #dbd803 70%, #000000) no-repeat;
 }
 
 .abc {
