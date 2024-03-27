@@ -57,7 +57,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#151515, #0ef);
+    background: linear-gradient(#151515, #dbd803);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
   
@@ -78,12 +78,12 @@
     left: 0;
     width: 300px;
     height: 300px;
-    background: rgb(0, 238, 255);
+    background: #dbd803;
     transform: translateZ(-380px);
     filter: blur(20px);
-    box-shadow: 0 0 100px rgb(81, 227, 238), 0 0 200px rgb(17, 118, 126),
-      0 0 300px rgb(5, 176, 189), 0 0 400px rgb(0, 238, 255),
-      0 0 500px rgb(0, 238, 255);
+    box-shadow: 0 0 100px #b3b003, 0 0 200px #c9c626,
+      0 0 300px #fffb00, 0 0 400px #d1cf41,
+      0 0 500px #dbd803;
   }
   
   nav {
@@ -101,7 +101,7 @@
   }
   
   nav a:hover {
-    color: #0ef;
+    color: #dbd803;
   }
   
   nav a span {
@@ -111,7 +111,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    border-bottom: 2px solid #0ef;
+    border-bottom: 2px solid #dbd803;
     border-radius: 15px;
     transform: scale(0) translateY(50px);
     opacity: 0;
